@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    background-color: #fff8f0;
+    font-family: 'Georgia', serif;
+    color: #1b1b1b;
+}
+
+/* Header */
+.header-box {
+    background-color: #a63603;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+.header-box h1 {
+    color: white;
+    font-size: 2rem;
+}
+.header-box p {
+    color: #f8f8f8;
+    font-size: 1.1rem;
+}
+
+/* Cards */
+.site-card {
+    background-color: #fef6e4;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.site-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+
+
+/* Reduce space between widgets */
+.block-container .element-container {
+    margin-bottom: 0rem !important;
+}
+
+/* Map responsiveness */
+iframe {
+    width: 100% !important;
+    height: 500px !important;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 2rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .header-box h1 {
+        font-size: 1.5rem;
+    }
+    .header-box p {
+        font-size: 1rem;
+    }
+    .map-container iframe {
+        height: 400px !important;
+    }
+}
