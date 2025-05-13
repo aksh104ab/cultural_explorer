@@ -10,12 +10,12 @@ df = pd.read_csv(csv_file)
 
 # Connect to Snowflake
 conn = snowflake.connector.connect(
-    user='aksnow',
-    password='Aks@snowflake123',
-    account='NDXGPOT-GY59263',
-    warehouse='CULTURAL_WH',
-    database='CULTURAL_DB',
-    schema='CULTURAL_SCHEMA'
+    user='******',
+    password='******',
+    account='*****',
+    warehouse='******',
+    database='******',
+    schema='******'
 )
 
 cursor = conn.cursor()
