@@ -7,7 +7,7 @@ import sys
 import os
 import random
 import snowflake.connector
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from model.trend_predictor import predict_future
