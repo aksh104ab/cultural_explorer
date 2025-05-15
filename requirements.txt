@@ -6,4 +6,3 @@ plotly
 scikit-learn
 sentence-transformers
 snowflake-connector-python
-python-dotenv
