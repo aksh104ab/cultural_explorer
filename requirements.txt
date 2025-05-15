@@ -1,0 +1,9 @@
+streamlit
+pandas
+folium
+streamlit-folium
+plotly
+scikit-learn
+sentence-transformers
+snowflake-connector-python
+python-dotenv
