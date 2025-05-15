@@ -1,10 +1,16 @@
-CREATE DATABASE CULTURAL_DB;
-USE CULTURAL_DB;
+USE DATABASE CULTURAL_DB;
+USE SCHEMA CULTURAL_SCHEMA;
+USE WAREHOUSE CULTURAL_WH;
 
-CREATE SCHEMA CULTURAL_SCHEMA;
-USE CULTURAL_SCHEMA;
 
-CREATE TABLE cultural_sites (
+CREATE TABLE tourism_stats (
+    id INT AUTOINCREMENT PRIMARY KEY,
+    state STRING,
+    year INT,
+    domestic_arrivals INT
+);
+
+CREATE OR REPLACE TABLE cultural_sites (
     site_id INT AUTOINCREMENT PRIMARY KEY,
     site_name STRING,
     state STRING,
@@ -13,12 +19,8 @@ CREATE TABLE cultural_sites (
     responsible_score FLOAT,
     latitude FLOAT,
     longitude FLOAT,
-    image_url STRING
+    image_url STRING,
+    describtion STRING
 );
 
-CREATE TABLE tourism_stats (
-    id INT AUTOINCREMENT PRIMARY KEY,
-    state STRING,
-    year INT,
-    domestic_arrivals INT
-);
+SELECT * FROM cultural_sites;
