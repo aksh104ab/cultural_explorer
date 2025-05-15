@@ -15,7 +15,7 @@ from model.get_popular_site import recommend_sites, recommend_sites_by_state
 from model.personalised_recommender import recommend_by_interest
 
 # Load environment variables
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pass.env'))
+#load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pass.env'))
 
 # Load custom CSS
 def local_css(file_name):
