@@ -16,7 +16,7 @@ import pandas as pd
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-def recommend_by_interest(df, user_input, top_k=1):
+def recommend_by_interest(df, user_input, top_k=2):
     df = df.dropna(subset=['DESCRIBTION']).copy()
     user_vec = model.encode(user_input)
     df['embedding'] = df['DESCRIBTION'].apply(lambda x: model.encode(x))

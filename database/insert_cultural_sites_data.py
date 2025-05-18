@@ -12,6 +12,9 @@ csv_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'cultural_sites
 # Load the CSV file
 df = pd.read_csv(csv_file)
 
+# Clean the description column: replace commas with spaces and strip extra spaces
+df['describtion'] = df['describtion'].astype(str).str.replace(',', ' ', regex=False).str.replace('\s+', ' ', regex=True).str.strip()
+
 # Connect to Snowflake
 conn = snowflake.connector.connect(
     user=os.environ['SNOWFLAKE_USER'],
