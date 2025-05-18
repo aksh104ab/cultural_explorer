@@ -8,7 +8,7 @@ import sys
 import os
 import random
 import snowflake.connector
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from model.trend_predictor import predict_future
@@ -17,7 +17,7 @@ from model.personalised_recommender import recommend_by_interest
 import numpy as np
 
 # Load environment variables
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pass.env'))
+#load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pass.env'))
 
 # Load custom CSS
 def local_css(file_name):

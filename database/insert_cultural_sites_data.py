@@ -1,10 +1,10 @@
 import pandas as pd
 import snowflake.connector
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
 # Load environment variables from .env file
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pass.env'))
+#load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pass.env'))
 
 # Use relative path (recommended)
 csv_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'cultural_sites.csv')
