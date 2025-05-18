@@ -61,7 +61,7 @@ st.markdown("""
     <div style="background: linear-gradient(90deg, #ffe066 0%, #b7e4c7 60%, #a7c7e7 100%); box-shadow: 0 4px 18px #e0e0e0; padding: 18px 12px 14px 12px; margin-bottom: 18px; display: flex; align-items: center; gap: 18px;">
         <img src="https://img.icons8.com/color/96/india.png" alt="India Icon" style="width:54px; height:54px; box-shadow:0 2px 8px #b7e4c7">
         <span style="font-family:'Segoe UI',Arial,sans-serif;">
-            <span style="font-size:2.7em; color:#218838; font-weight:900; letter-spacing:1.5px; text-shadow:0 2px 8px #ffe066, 0 4px 16px #a7c7e7;">Bharat<span style="color:#a63603;">Verse</span></span>
+            <span style="font-size:2.2em; color:#218838; font-weight:900; letter-spacing:1.5px; text-shadow:0 2px 8px #ffe066, 0 4px 16px #a7c7e7;">Bharat<span style="color:#a63603;">Verse</span></span>
             <span style="font-size:1.25em; color:#007f5f; font-weight:500; margin-left:12px; letter-spacing:0.7px; text-shadow:0 1px 6px #ffe066;">Cultural Tourism Explorer</span>
         </span>
     </div>
