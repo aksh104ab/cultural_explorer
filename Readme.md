@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-BharatVerse is an AI-powered platform to explore, analyze, and recommend India's rich cultural sites and festivals. It leverages data science, NLP, and interactive visualizations to help users discover hidden gems, plan responsible travel, and understand tourism trends.
+BharatVerse is an ML-powered platform to explore, analyze, and recommend India's rich cultural sites and festivals. It leverages data science, NLP, and interactive visualizations to help users discover hidden gems, plan responsible travel, and understand tourism trends.
 
 ---
 
